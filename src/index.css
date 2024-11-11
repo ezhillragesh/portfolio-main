@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: "Inter", sans-serif;
+  
+}
+.headline-2{
+  @apply max-w-max;
+  backgroud: -webkit-liner-gradient(0deg,#fafafa,#a1a1aa);
+  -webkit-backgroud-clip:text;
+  
+}
+.headline-2{
+  @apply text-3xl lg:text-4xl lg:leading-tight font-semibold text-white
+}
+
+
+/* Custom styles for BlogCard title */
+.title-text {
+  font-size: 1.125rem; /* Default size (18px) */
+}
+
+/* Media query for small screens (smaller than 640px) */
+@media (max-width: 639px) {
+  .title-text {
+    font-size: 0.55rem; /* Smaller font size for mobile (14px) */
+  }
+}
