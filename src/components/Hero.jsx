@@ -40,6 +40,18 @@ const Hero = () => {
               <BsTwitterX className="hover:text-indigo-400" />
             </a>
           </div>
+
+          {/* Resume Button */}
+          <div className="mt-6">
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition"
+            >
+              View My Resume
+            </a>
+          </div>
         </motion.div>
       </div>
     </div>
